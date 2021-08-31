@@ -1,13 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Tailwind Portfolio</title>
-    </head>
-    <body>
-        <h1 class="text-center">Hello World</h1>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tailwind Portfolio</title>
+</head>
+
+<body>
+    <div class="container mx-auto lg:px-40">
+        <nav class="relative flex items-center justify-between sm:h-10" aria-label="Global" style="height: 100px;">
+            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                    <a href="#">
+                        <h4 class="text-neutral-90 text-subtitle18 font-bold">
+                            Portfolio me<span class="text-warning-40">.</span>
+                        </h4>
+                    </a>
+                    <div class="-mr-2 flex items-center md:hidden">
+                        <button type="button"
+                            class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                            aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                <a href="#" class="font-medium text-neutral-70 hover:text-neutral-100 text-body16">Say hello</a>
+                <a href="#" class="font-medium text-neutral-70 hover:text-neutral-100 text-body16">Get my CV</a>
+            </div>
+        </nav>
+        <div class="flex items-center" style="min-height: calc(100vh - 200px);">
+            <div class="grid grid-rows-2 grid-flow-col w-full">
+                <div class="row-span-9 row-start-1 row-end-4 flex items-center">
+                    <div>
+                        <div class="flex">
+                            <h2 class="relative text-title42 text-neutral-90 mb-10 font-bold">
+                                Sarah Drasner
+                                <span class="w-full absolute left-0 bottom-2 bg-orange-10"
+                                    style="height: 10px; z-index: -1;"></span>
+                            </h2>
+                        </div>
+                        <p class="text-body14 text-neutral-70" style="max-width: 600px;">Sarah Drasner is an
+                            award-winning Speaker, VP of Developer Experience at Netlify, Vue core
+                            team
+                            member,
+                            and Staff Writer at CSS-Tricks. Sarah is formerly Principal Lead of Emerging Markets, Cloud
+                            Advocates at
+                            Microsoft and Manager of UX & Engineering at Trulia/Zillow Group. She’s the author of SVG
+                            Animations
+                            from O’Reilly and has given Frontend Masters workshops. Sarah is a co-organizer of
+                            ConcatenateConf,
+                            a
+                            free conference for Nigerian and Kenyan developers. Sarah is also the co-founder of Web
+                            Animation
+                            Workshops with Val Head. She has worked for 15 years as a web developer, and at points
+                            worked as
+                            a
+                            Scientific Illustrator and a Professor in the Greek Islands.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative row-span-3 flex items-center justify-end">
+                    <img src="./images/13.png" style="height: 332px;" />
+                    <svg class="absolute" style="bottom: -20px; right: -20px; z-index: -1;" width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2.43465" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="2.43465" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="13.3039" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="24.1732" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="35.0424" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="45.9117" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="56.781" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="67.6502" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="78.5195" cy="89.389" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="2.43465" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="13.3039" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="24.1732" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="35.0426" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="45.9118" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="56.7811" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="67.6504" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="78.5197" r="2.43465" fill="#EEDACF" />
+                        <circle cx="89.3888" cy="89.389" r="2.43465" fill="#EEDACF" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <footer class="flex items-center" style="height: 100px;">
+            <div class="flex items-baseline w-full">
+                <a href="#" class="font-medium text-body16 flex items-center text-neutral-70 hover:text-neutral-100 text-body16 mr-10">
+                    Dribbble
+                    <svg class="ml-2 mt-1" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.00001 1.00004C4.00001 1.37337 4.30001 1.66671 4.66667 1.66671H8.39334L1.13334 8.92671C0.873339 9.18671 0.873339 9.60671 1.13334 9.86671C1.39334 10.1267 1.81334 10.1267 2.07334 9.86671L9.33334 2.60671V6.33337C9.33334 6.70004 9.63334 7.00004 10 7.00004C10.3667 7.00004 10.6667 6.70004 10.6667 6.33337V1.00004C10.6667 0.633374 10.3667 0.333374 10 0.333374H4.66667C4.30001 0.333374 4.00001 0.633374 4.00001 1.00004Z"
+                            fill="#475569" />
+                    </svg>
+                </a>
+                <a href="#" class="font-medium text-body16 flex items-center text-neutral-70 hover:text-neutral-100 text-body16 mr-10">
+                    Behance
+                    <svg class="ml-2 mt-1" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.00001 1.00004C4.00001 1.37337 4.30001 1.66671 4.66667 1.66671H8.39334L1.13334 8.92671C0.873339 9.18671 0.873339 9.60671 1.13334 9.86671C1.39334 10.1267 1.81334 10.1267 2.07334 9.86671L9.33334 2.60671V6.33337C9.33334 6.70004 9.63334 7.00004 10 7.00004C10.3667 7.00004 10.6667 6.70004 10.6667 6.33337V1.00004C10.6667 0.633374 10.3667 0.333374 10 0.333374H4.66667C4.30001 0.333374 4.00001 0.633374 4.00001 1.00004Z"
+                            fill="#475569" />
+                    </svg>
+                </a>
+                <a href="#" class="font-medium text-body16 flex items-center text-neutral-70 hover:text-neutral-100 text-body16 mr-10">
+                    CodePen
+                    <svg class="ml-2 mt-1" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.00001 1.00004C4.00001 1.37337 4.30001 1.66671 4.66667 1.66671H8.39334L1.13334 8.92671C0.873339 9.18671 0.873339 9.60671 1.13334 9.86671C1.39334 10.1267 1.81334 10.1267 2.07334 9.86671L9.33334 2.60671V6.33337C9.33334 6.70004 9.63334 7.00004 10 7.00004C10.3667 7.00004 10.6667 6.70004 10.6667 6.33337V1.00004C10.6667 0.633374 10.3667 0.333374 10 0.333374H4.66667C4.30001 0.333374 4.00001 0.633374 4.00001 1.00004Z"
+                            fill="#475569" />
+                    </svg>
+                </a>
+                <a href="#" class="font-medium text-body16 flex items-center text-neutral-70 hover:text-neutral-100 text-body16 mr-10">
+                    GitHub
+                    <svg class="ml-2 mt-1" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.00001 1.00004C4.00001 1.37337 4.30001 1.66671 4.66667 1.66671H8.39334L1.13334 8.92671C0.873339 9.18671 0.873339 9.60671 1.13334 9.86671C1.39334 10.1267 1.81334 10.1267 2.07334 9.86671L9.33334 2.60671V6.33337C9.33334 6.70004 9.63334 7.00004 10 7.00004C10.3667 7.00004 10.6667 6.70004 10.6667 6.33337V1.00004C10.6667 0.633374 10.3667 0.333374 10 0.333374H4.66667C4.30001 0.333374 4.00001 0.633374 4.00001 1.00004Z"
+                            fill="#475569" />
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
