@@ -76,7 +76,6 @@ module.exports = {
                     80: '#A82700',
                     100: '#621700',
                 },
-
                 // semantic colors
                 success: {
                     DEFAULT: '#00632B',
@@ -95,6 +94,20 @@ module.exports = {
                     60: '#2563EB',
                     80: '#0037B3',
                     100: '#002987',
+                },
+                // neutral
+                neutral: {
+                    white: '#FFFFFF',
+                    10: '#F6F8FC',
+                    20: '#F1F4F9',
+                    30: '#E2E8F0',
+                    40: '#CBD4E1',
+                    50: '#94A3B8',
+                    60: '#64748B',
+                    70: '#475569',
+                    80: '#27364B',
+                    90: '#1E2A3B',
+                    100: '#0F1A2A',
                 },
                 warning: {
                     DEFAULT: '#976400',
