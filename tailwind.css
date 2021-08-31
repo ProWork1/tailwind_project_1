@@ -2,6 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar-link1 {
-    @apply font-medium text-neutral-70 hover:text-neutral-100 text-body16;
-}
