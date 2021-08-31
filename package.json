@@ -1,0 +1,27 @@
+{
+  "name": "tailwindtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build tailwind.css -o src/style.css",
+    "build": "tailwind build tailwind.css -o src/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirzamurod/tailwindtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirzamurod/tailwindtest/issues"
+  },
+  "homepage": "https://github.com/Mirzamurod/tailwindtest#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.9"
+  }
+}
