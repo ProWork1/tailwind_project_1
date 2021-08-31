@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Tailwind Portfolio</title>
-    </head>
-    <body>
-        <h1 class="text-center">Hello World</h1>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tailwind Portfolio</title>
+</head>
+
+<body>
+    <div class="grid lg:grid-cols-3 ">
+        <div class="lg:col-span-1">
+            <div class="relative row-span-1 max-w-full">
+                <img class="max-h-screen max-w-full m-0" src="./images/13.png" alt="">
+            </div>
+            <img class="absolute bottom-1 left-1" src="./images/dots.png" alt="">
+        </div>
+        <div class="lg:col-span-2">
+            <div class="flex justify-between py-10 pr-52">
+                <p class="text-subtitle18 text-orange-40">
+                    Sarah’s personal page
+                </p>
+                <p class="text-neutral-70 text-body16 font-medium">
+                    <span class="mr-6">Say hello</span>
+                    <span><a href="#">Get my CV</a></span>
+                </p>
+            </div>
+            <div class="mt-32">
+                <p class="text-neutral-90 text-title42 font-bold">Sarah Drasner</p>
+                <p class="text-body14 text-neutral-70 mt-8 pr-72">
+                    Sarah Drasner is an award-winning Speaker, VP of Developer Experience at Netlify, Vue core team member, and Staff Writer at CSS-Tricks. Sarah is formerly Principal Lead of Emerging Markets, Cloud Advocates at Microsoft and Manager of UX & Engineering
+                    at Trulia/Zillow Group. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops. Sarah is a co-organizer of ConcatenateConf, a free conference for Nigerian and Kenyan developers. Sarah is also the
+                    co-founder of Web Animation Workshops with Val Head. She has worked for 15 years as a web developer, and at points worked as a Scientific Illustrator and a Professor in the Greek Islands.
+                </p>
+                <p class="text-subtitle20 text-neutral-90 font-medium mt-4">Read more about me</p>
+            </div>
+            <div class="flex mt-40 float-right pr-48">
+                <div class="px-4 py-3 rounded-md mr-4 bg-neutral-20">
+                    <a href="#"><img src="./images/facebook.png" alt=""></a>
+                </div>
+                <div class="px-4 py-3 rounded-md mr-4 bg-neutral-20">
+                    <a href="#"><img src="./images/network.png" alt=""></a>
+                </div>
+                <div class="px-4 py-3 rounded-md mr-4 bg-neutral-20">
+                    <a href="#"><img src="./images/twiter.png" alt=""></a>
+                </div>
+                <div class="px-4 py-3 rounded-md bg-neutral-20">
+                    <a href="#" class="text-neutral-50 font-bold">Bё</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
