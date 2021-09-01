@@ -1,13 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Tailwind Portfolio</title>
-    </head>
-    <body>
-        <h1 class="text-center">Hello World</h1>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./portfolio3.css" />
+    <title>Tailwind Portfolio</title>
+  </head>
+  <body>
+    <div class="portfolio3">
+      <div class="container-lg md:px-32 sm:px-10 px-5 mx-auto my-5">
+        <div class="flex justify-between">
+          <div class="font-bold" style="color: #4032dc; font-size: 18px">
+            Sarah’s personal page
+          </div>
+          <div class="flex">
+            <p style="color: #475569; font-size: 16px" class="mr-8">
+              <a href="#">Say hello</a>
+            </p>
+            <p style="color: #475569; font-size: 16px">
+              <a href="#">Get my CV</a>
+            </p>
+          </div>
+        </div>
+        <div class="title mt-16">
+          <h1 style="color: #475569; font-size: 32px; font-weight: 500">
+            Hello, I’m Sara! <br />
+            Visual Designer based United Kingdom.
+          </h1>
+        </div>
+        <div class="my-10">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="imgCont">
+                  <img src="./images/image 1.png" alt="image 1" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgCont">
+                  <img src="./images/image 1.png" alt="image 1" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgCont">
+                  <img src="./images/image 1.png" alt="image 1" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgCont">
+                  <img src="./images/image 1.png" alt="image 1" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgCont">
+                  <img src="./images/image 1.png" alt="image 1" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev icon">
+              <img src="./images/previous.png" alt="" />
+            </div>
+            <div class="swiper-button-next icon">
+              <img src="./images/next.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="text"
+            style="color: #1e2a3b; font-size: 20px; font-weight: 500"
+          >
+            See more
+            <span class="bgSpan"></span>
+          </p>
+        </div>
+        <div class="messanger flex justify-between my-10">
+          <a href="#"><img src="./images/facebook.png" alt="" /></a>
+          <a href="#"><img src="./images/network.png" alt="" /></a>
+          <a href="#"><img src="./images/twiter.png" alt="" /></a>
+          <a href="#"
+            ><img src="./images/7156622_behance_social_media_icon 1.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </body>
 </html>
+
+<script type="module">
+  import Swiper from "https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js";
+
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    slidesPerView: 2.5,
+    spaceBetween: 30,
+    freeMode: true,
+
+    // If we need pagination
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
