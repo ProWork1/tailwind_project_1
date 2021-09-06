@@ -156,5 +156,8 @@ module.exports = {
     variants: {
         extend: {},
     },
+    experimental: {
+        applyComplexClasses: true,
+    },
     plugins: [],
 }
