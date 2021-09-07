@@ -1,9 +1,16 @@
+.portfolio3 .container-lg {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .swiper {
   width: 100%;
   /* height: 300px; */
 }
+
 .imgCont {
-  padding: 5px;
+  padding: 25px;
   background: #eceff5;
 }
 
